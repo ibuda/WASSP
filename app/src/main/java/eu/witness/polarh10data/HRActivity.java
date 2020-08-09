@@ -386,7 +386,7 @@ public class HRActivity extends AppCompatActivity implements SensorEventListener
 //            fileForUpload.close();
 
             // dropbox flie upload
-            String ACCESS_TOKEN = "pUmTFL9YSeEAAAAAAAAA4G54K1isT3FzezFoJUYCzL0R1qbX5J3LNU_-OLxxeNj6";
+            String ACCESS_TOKEN = ""; // put your dropbox aceess token here
             DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
             DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
 
